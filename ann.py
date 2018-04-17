@@ -54,11 +54,11 @@ def train_network(d, weights, train_set):
     return weights, bias
 
 
-sets = parse_input(); # Train set is 0, test set is 1 and d is 2
+sets = parse_input(); # Train set is index 0, test set is 1 and d is 2
 
 weights = []
 
-new_weights = train_network(sets[2], weights, sets[0])
+new_weights = train_network(sets[2], weights, sets[0]) # weights array is index 0, bias is 1
 
 if new_weights == -1:
     print("no solution found")
