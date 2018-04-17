@@ -1,5 +1,3 @@
-from sys import stdin
-
 def parse_input():
     d = int(input())
     m = int(input())
