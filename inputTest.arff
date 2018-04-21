@@ -1,0 +1,13 @@
+@relation linearly_separable
+
+@attribute input1 NUMERIC
+@attribute input2 NUMERIC
+@attribute output NUMERIC
+
+@data
+0,1
+0,-0.5
+1,1
+1,-1
+0.5,0.25
+0.5,0.4
